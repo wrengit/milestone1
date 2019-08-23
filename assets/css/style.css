@@ -1,5 +1,8 @@
 /*---Global styles---*/
-
+html {
+    margin: 0
+    padding: 0
+}
 /*---Nav bar---*/
 
 .homelogo {
@@ -25,6 +28,33 @@
 }
 
 /*---Landing page*/
+
+/*--!!!---rgba opacity does not seem to apply to the background image, only linear gradient---!!!---*/
+.heroimage-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/banter-snaps-y4bE8ST_CTg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+  height: 100vh;
+}
+
+.heroimage-text {
+  color: white;
+  margin: auto;
+  width: 60%;
+  height: 80%;
+  display: flex;
+}
+
+.heroimage-text span {
+  margin: auto;
+  border: 0.8vw solid white;
+  padding: 2% 2% 0% 5%;
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 18vw;
+}
 
 /*---About---*/
 
