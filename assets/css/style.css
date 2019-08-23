@@ -1,0 +1,49 @@
+/*---Global styles---*/
+
+/*---Nav bar---*/
+
+.homelogo {
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 1.5em;
+    padding: 0;
+}
+
+.socials-burger {
+    text-align: right;
+    display: inline-block;
+
+}
+
+.socials-burger i {
+    color: #575757;
+    margin-right: 10px;
+}
+
+.socials-navbar i {
+    color: #575757;
+    margin-right: 10px;
+}
+
+/*---Landing page*/
+
+/*---About---*/
+
+/*---Tesimonials---*/
+
+/*---Portfolio---*/
+
+/*---Contact---*/
+
+/*---Footer---*/
+
+/*---Media queries---*/
+
+/*---Mobile devices (vertical)---*/
+
+/*---Mobile devices (horizontal)---*/
+
+/*---Tablets (vertical)---*/
+
+/*---Tablets (horizontal)---*/
+
+/*---Desktops---*/
