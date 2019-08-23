@@ -1,9 +1,13 @@
 /*---Global styles---*/
-html {
-    margin: 0
-    padding: 0
+
+body {
+    font-family: "Raleway", sans-serif;
 }
-/*---Nav bar---*/
+
+h1, h2, h3, h4 {
+    font-family: "Oswald", sans-serif;
+}
+/*---------------Nav bar---*/
 
 .homelogo {
     font-family: "Sue Ellen Francisco", cursive;
@@ -14,7 +18,6 @@ html {
 .socials-burger {
     text-align: right;
     display: inline-block;
-
 }
 
 .socials-burger i {
@@ -27,9 +30,9 @@ html {
     margin-right: 10px;
 }
 
-/*---Landing page*/
+/*---------------Landing page---*/
 
-/*--!!!---rgba opacity does not seem to apply to the background image, only linear gradient---!!!---*/
+/*---rgba opacity does not seem to apply to the background image, only linear gradient---*/
 .heroimage-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/banter-snaps-y4bE8ST_CTg-unsplash.jpg);
   background-repeat: no-repeat;
@@ -56,7 +59,7 @@ html {
   font-size: 18vw;
 }
 
-/*---About---*/
+/*---------------About---*/
 
 .about img {
     filter: invert(100%);
@@ -82,15 +85,32 @@ html {
 .about figure p {  /* <---removes margin when visable in mobile view  */
     margin: 0;
 }
-/*---Tesimonials---*/
+/*---------------Tesimonials---*/
 
-/*---Portfolio---*/
+.stickyimage {
+    position: sticky;
+    top: 48px;
+    z-index: 0;
+    width: 100%;
+    padding: 0;
+}
 
-/*---Contact---*/
+.testimonials {
+    background: #F5F5F5;
+    position: relative;
+}
 
-/*---Footer---*/
+.quote {
+    text-align: center;
+    padding: 10% 2%;
+}
+/*---------------Portfolio---*/
 
-/*---Media queries---*/
+/*---------------Contact---*/
+
+/*---------------Footer---*/
+
+/*---------------Media queries---*/
 
 /*---Mobile devices (vertical)---*/
 
