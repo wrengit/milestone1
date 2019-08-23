@@ -58,6 +58,30 @@ html {
 
 /*---About---*/
 
+.about img {
+    filter: invert(100%);
+    width: 100%;
+}
+
+.about-text {
+    padding: 10%;
+}
+
+.about-text h2 {
+    text-align: center;
+    padding: 3%;
+}
+
+.about figure {
+  text-align: center;
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 1.2em;
+  padding-top: 2%;
+}
+
+.about figure p {  /* <---removes margin when visable in mobile view  */
+    margin: 0;
+}
 /*---Tesimonials---*/
 
 /*---Portfolio---*/
