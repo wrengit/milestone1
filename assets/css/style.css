@@ -2,6 +2,7 @@
 
 body {
     font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -70,6 +71,10 @@ h1, h2, h3, h4 {
     padding: 10%;
 }
 
+.about-text p {
+    margin-bottom: 0;
+}
+
 .about-text h2 {
     text-align: center;
     padding: 3%;
@@ -85,6 +90,19 @@ h1, h2, h3, h4 {
 .about figure p {  /* <---removes margin when visable in mobile view  */
     margin: 0;
 }
+
+.about img {
+    max-width: 80%;
+}
+
+.award-image {
+    padding-bottom: 5%;
+}
+
+.award-image p {
+    padding: 0;
+}
+
 /*---------------Tesimonials---*/
 
 .stickyimage {
@@ -102,7 +120,16 @@ h1, h2, h3, h4 {
 
 .quote {
     text-align: center;
-    padding: 13% 2%;
+}
+
+.quote p {
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.quote footer {
+    font-family: "Oswald", sans-serif;
 }
 
 .testimonials img {
@@ -113,6 +140,7 @@ h1, h2, h3, h4 {
 
 .testimonials div {
     padding: 3%;
+    text-align: center;
 }
 
 /*---------------Portfolio---*/
@@ -125,6 +153,10 @@ h1, h2, h3, h4 {
   background-position: center center;
   position: relative;
   height: 20vh;
+}
+
+.portfolio {
+    padding: 4% 2%;
 }
 
 .portfolio h2, p {
@@ -142,7 +174,17 @@ h1, h2, h3, h4 {
   padding: 15px;
 }
 
+.polaroidphoto figcaption {
+        text-align: center;
+        padding-top: 3%;
+        font-family: "Sue Ellen Francisco", cursive;
+        font-size: 1.2em;
 }
+
+.polaroidphoto img {
+    filter: sepia(50%);
+}
+
 #SM {
     transform: rotate(1deg);
 }
@@ -160,16 +202,59 @@ h1, h2, h3, h4 {
 }
 /*---------------Contact---*/
 
+.heroimage-3 {
+  background-image: url(../images/marisa-morton-h-dR-XFJXis-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+  height: 20vh;
+}
+
+.contact-text {
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.contact-text h3 {
+    padding: 2%;
+}
+
+.cursive {
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 2em;
+}
 /*---------------Footer---*/
 
 /*---------------Media queries---*/
 
 /*---Mobile devices (vertical)---*/
 
+/*---max-width to target just vertical mobile devices. Image is too large on mobile vertical--*/
+@media (max-width: 575.98px) {
+    .testimonials img {
+        max-width: 70%;
+    }
+}
+
 /*---Mobile devices (horizontal)---*/
+
+@media (min-width: 576px) {
+    .about-text {
+        padding: 4% 8%;
+    }
+}
 
 /*---Tablets (vertical)---*/
 
-/*---Tablets (horizontal)---*/
+/*---Tablets (horizontal) / Desktops---*/
 
-/*---Desktops---*/
+@media (min-width: 992px) {
+    .contact-text {
+        font-size: 1.5em;
+    }
+    .cursive {
+        padding: 0;
+    }
+}
