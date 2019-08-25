@@ -309,6 +309,15 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     .heroimage-1 {
         background-attachment: fixed;
     }
+    .about-text {
+        font-size: 1.5em;
+    }
+    .portfolio-text {
+        font-size: 1.5em;
+    }
+    .locations-text {
+        font-size: 1.5em;
+    }
 }
 
 /*---Large Desktops---*/
