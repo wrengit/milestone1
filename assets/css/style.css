@@ -40,7 +40,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/banter-snaps-y4bE8ST_CTg-unsplash-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center center;
   position: relative;
   height: 100vh;
@@ -296,9 +296,6 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     .heroimage-text span {
         font-size: 12vw;
     }
-    .heroimage-1 {
-        background-attachment: scroll;
-    }
 }
 
 /*---Tablets (horizontal) / Desktops---*/
@@ -312,6 +309,9 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     }
     .signup {
         padding:5% 10%;
+    }
+    .heroimage-1 {
+        background-attachment: fixed;
     }
 }
 
