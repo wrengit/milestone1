@@ -286,6 +286,9 @@ h1, h2, h3, h4 {
     .about-text {
         padding: 4% 8%;
     }
+    .heroimage-text span {
+      font-size: 12vw;
+    }
 }
 
 /*---Tablets (horizontal) / Desktops---*/
@@ -311,4 +314,5 @@ h1, h2, h3, h4 {
     .signup {
         padding:5% 15%;
     }
+
 }
