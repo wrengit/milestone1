@@ -1,14 +1,17 @@
 /*---Global styles---*/
+html {
+    overflow-x: hidden !important;
+}
 
-body, html {
+body {
     font-family: "Raleway", sans-serif;
-    overflow-x: hidden;
     background-color: #f5f5f5;
 }
 
 h1, h2, h3, h4 {
     font-family: "Oswald", sans-serif;
 }
+
 /*---------------Nav bar---*/
 
 .homelogo {
@@ -107,15 +110,10 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
 
 /*---------------Tesimonials---*/
 
-.stickyimage {
-    -webkit-position: sticky;
-    -moz-position: sticky;
-    -o-position: sticky;
+.sticky-image {
+    width: 100%;
     position: sticky;
     top: 48px;
-    z-index: 0;
-    width: 100%;
-    padding: 0;
 }
 
 .testimonials {
@@ -212,17 +210,6 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
 }
 
 /*---------------Locations---*/
-
-.locations-text {
-    text-align: center;
-}
-
-.locations-text h2 {
-    padding: 2%;
-}
-
-/*---------------Contact---*/
-
 .heroimage-3 {
     background-image: url(../images/marisa-morton-h-dR-XFJXis-unsplash-min.jpg);
     background-repeat: no-repeat;
@@ -232,6 +219,15 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     position: relative;
     height: 20vh;
 }
+.locations-text {
+    text-align: center;
+}
+
+.locations-text h2 {
+    padding: 2%;
+}
+
+/*---------------Contact---*/
 
 .cursive {
     font-family: "Sue Ellen Francisco", cursive;
