@@ -34,7 +34,8 @@ h1, h2, h3, h4 {
 
 /*---------------Landing page---*/
 
-/*---rgba opacity does not seem to apply to the background image, only linear gradient---*/
+/*---rgba opacity does not seem to apply to the background image, only linear gradient
+https://www.w3schools.com/howto/howto_css_parallax.asp---*/
 .heroimage-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/banter-snaps-y4bE8ST_CTg-unsplash-min.jpg);
   background-repeat: no-repeat;
@@ -293,7 +294,10 @@ h1, h2, h3, h4 {
         padding: 4% 8%;
     }
     .heroimage-text span {
-      font-size: 12vw;
+        font-size: 12vw;
+    }
+    .heroimage-1 {
+        background-attachment: scroll;
     }
 }
 
