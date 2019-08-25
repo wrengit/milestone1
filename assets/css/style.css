@@ -46,19 +46,19 @@ h1, h2, h3, h4 {
 }
 
 .heroimage-text {
-  color: white;
-  margin: auto;
-  width: 60%;
-  height: 80%;
-  display: flex;
+    color: white;
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    display: flex;
 }
 
 .heroimage-text span {
-  margin: auto;
-  border: 0.8vw solid white;
-  padding: 2% 2% 0% 5%;
-  font-family: "Sue Ellen Francisco", cursive;
-  font-size: 18vw;
+    margin: auto;
+    border: 0.8vw solid white;
+    padding: 2% 2% 0% 5%;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 18vw;
 }
 
 /*---------------About---*/
@@ -82,10 +82,10 @@ h1, h2, h3, h4 {
 }
 
 .about figure {
-  text-align: center;
-  font-family: "Sue Ellen Francisco", cursive;
-  font-size: 1.2em;
-  padding-top: 2%;
+    text-align: center;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 1.2em;
+    padding-top: 2%;
 }
 
 .about figure p {  /* <---removes margin when visable in mobile view  */
@@ -107,6 +107,9 @@ h1, h2, h3, h4 {
 /*---------------Tesimonials---*/
 
 .stickyimage {
+    -webkit-position: sticky;
+    -moz-position: sticky;
+    -o-position: sticky;
     position: sticky;
     top: 48px;
     z-index: 0;
@@ -147,13 +150,13 @@ h1, h2, h3, h4 {
 /*---------------Portfolio---*/
 
 .heroimage-2 {
-  background-image: url(../images/eliza-szablinska-TncriKEFStY-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-  position: relative;
-  height: 20vh;
+    background-image: url(../images/eliza-szablinska-TncriKEFStY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    height: 20vh;
 }
 
 .portfolio {
@@ -175,9 +178,9 @@ h1, h2, h3, h4 {
 }
 
 .polaroidphoto {
-  border: 1px solid #e6e6e6;
-  box-sizing: border-box;
-  padding: 15px;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    padding: 15px;
 }
 
 .polaroidphoto figcaption {
@@ -220,13 +223,13 @@ h1, h2, h3, h4 {
 /*---------------Contact---*/
 
 .heroimage-3 {
-  background-image: url(../images/marisa-morton-h-dR-XFJXis-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-  position: relative;
-  height: 20vh;
+    background-image: url(../images/marisa-morton-h-dR-XFJXis-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    height: 20vh;
 }
 
 .cursive {
