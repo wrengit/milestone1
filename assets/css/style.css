@@ -239,7 +239,10 @@ h1, h2, h3, h4 {
 
 .contactform button:hover {
     background-color: #575757;
+}
 
+.signup {
+    padding:5% 5%;
 }
 /*---------------Footer---*/
 
@@ -292,5 +295,19 @@ h1, h2, h3, h4 {
     }
     .cursive {
         padding: 0;
+    }
+    .signup {
+        padding:5% 10%;
+    }
+}
+
+/*---Large Desktops---*/
+
+@media (min-width: 1200px) {
+    .contactform {
+        padding: 5% 20%;
+    }
+    .signup {
+        padding:5% 15%;
     }
 }
