@@ -36,7 +36,7 @@ h1, h2, h3, h4 {
 
 /*---rgba opacity does not seem to apply to the background image, only linear gradient---*/
 .heroimage-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/banter-snaps-y4bE8ST_CTg-unsplash.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/banter-snaps-y4bE8ST_CTg-unsplash-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -150,7 +150,7 @@ h1, h2, h3, h4 {
 /*---------------Portfolio---*/
 
 .heroimage-2 {
-    background-image: url(../images/eliza-szablinska-TncriKEFStY-unsplash.jpg);
+    background-image: url(../images/eliza-szablinska-TncriKEFStY-unsplash-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -223,7 +223,7 @@ h1, h2, h3, h4 {
 /*---------------Contact---*/
 
 .heroimage-3 {
-    background-image: url(../images/marisa-morton-h-dR-XFJXis-unsplash.jpg);
+    background-image: url(../images/marisa-morton-h-dR-XFJXis-unsplash-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
