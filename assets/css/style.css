@@ -1,15 +1,22 @@
 /*---Global styles---*/
-html {
-    overflow-x: hidden !important;
-}
 
 body {
     font-family: "Raleway", sans-serif;
     background-color: #f5f5f5;
+    margin: 0;
 }
 
 h1, h2, h3, h4 {
     font-family: "Oswald", sans-serif;
+}
+
+.main-text {
+    text-align: center;
+    padding: 5%;
+}
+
+.main-text h2 {
+    padding: 3%;
 }
 
 /*---------------Nav bar---*/
@@ -47,6 +54,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
   background-position: center center;
   position: relative;
   height: 100vh;
+  max-width: 100%;
 }
 
 .heroimage-text {
@@ -70,19 +78,6 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
 .about img {
     filter: invert(100%);
     width: 100%;
-}
-
-.about-text {
-    padding: 10%;
-}
-
-.about-text p {
-    margin-bottom: 0;
-}
-
-.about-text h2 {
-    text-align: center;
-    padding: 3%;
 }
 
 .about figure {
@@ -156,20 +151,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     background-position: center center;
     position: relative;
     height: 20vh;
-}
-
-.portfolio {
-    padding: 4% 2%;
-}
-
-.portfolio h2 {
-    text-align: center;
-    padding: 5% 10% 5% 10%;
-}
-
-.portfolio p {
-    text-align: center;
-    padding: 5% 10% 5% 10%;
+    max-width: 100%;
 }
 
 .polaroidblock {
@@ -218,9 +200,11 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     background-position: center center;
     position: relative;
     height: 20vh;
+    max-width: 100%;
 }
 .locations-text {
     text-align: center;
+    padding: 10%;
 }
 
 .locations-text h2 {
