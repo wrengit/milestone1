@@ -28,8 +28,9 @@ h1, h2, h3, h4 {
 }
 
 .socials-burger {
-    text-align: right;
+    text-align: left;
     display: inline-block;
+    padding: 3% 0 3% 0;
 }
 
 .socials-burger i {
@@ -65,12 +66,12 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     display: flex;
 }
 
-.heroimage-text span {
+.main-logo {
     margin: auto;
-    border: 0.8vw solid white;
-    padding: 2% 2% 0% 5%;
+    border: 0.07em solid white;
+    padding: 4% 2% 0% 5%;
     font-family: "Sue Ellen Francisco", cursive;
-    font-size: 18vw;
+    font-size: 5rem;
 }
 
 /*---------------About---*/
@@ -202,14 +203,6 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     height: 20vh;
     max-width: 100%;
 }
-.locations-text {
-    text-align: center;
-    padding: 10%;
-}
-
-.locations-text h2 {
-    padding: 2%;
-}
 
 /*---------------Contact---*/
 
@@ -281,8 +274,8 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
 /*---Tablets (horizontal) / Desktops---*/
 
 @media (min-width: 992px) {
-    .contact-text {
-        font-size: 1.2em;
+    .main-text {
+        font-size: 1.4em;
     }
     .cursive {
         padding: 0;
@@ -293,14 +286,8 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     .heroimage-1 {
         background-attachment: fixed;
     }
-    .about-text {
-        font-size: 1.5em;
-    }
-    .portfolio-text {
-        font-size: 1.5em;
-    }
-    .locations-text {
-        font-size: 1.5em;
+    .main-logo {
+        font-size: 8rem;
     }
 }
 

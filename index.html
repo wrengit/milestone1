@@ -59,7 +59,7 @@
 
     <header class="heroimage-1" id="landing">
         <div class="heroimage-text">
-            <span>ruhstik.</span>
+            <h1 class="main-logo">ruhstik.</h1>
         </div>
     </header>
 
@@ -97,7 +97,7 @@
     </section>
 
     <section id="testimonials">
-        <img class="sticky-image" src="assets\images\ben-rosett-w4bp40RJZ9M-unsplash-min.jpg" alt="">
+        <img class="sticky-image" src="assets\images\ben-rosett-w4bp40RJZ9M-unsplash-min.jpg" alt="Picture (eat, drink and be married)">
         <div class="container-fluid testimonials" id="testimonials">
             <div class="row">
                 <div class="col-sm-4 align-self-center">
@@ -300,5 +300,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script type="text/javascript">
+        $(document).on('click','.navbar-collapse.in',function(e) {
+            if( $(e.target).is('a') ) {
+                $(this).collapse('hide');
+            }
+        });
+    </script>
 </body>
