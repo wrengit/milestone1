@@ -289,6 +289,9 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     .main-logo {
         font-size: 8rem;
     }
+    .video {
+        max-width: 80%;
+    }
 }
 
 /*---Large Desktops---*/
