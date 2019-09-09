@@ -281,7 +281,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
         padding: 0;
     }
     .signup {
-        padding:5% 10%;
+        padding:0% 10% 5% 10%;
     }
     .heroimage-1 {
         background-attachment: fixed;
@@ -301,7 +301,6 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
         padding: 5% 20%;
     }
     .signup {
-        padding:5% 15%;
+        padding: 0% 15% 5% 15%;
     }
-
 }
