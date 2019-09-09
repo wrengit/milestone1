@@ -19,6 +19,13 @@ h1, h2, h3, h4 {
     padding: 3%;
 }
 
+:target:before {  /* Anchor link fixed using code pulled directly from --> https://www.itsupportguides.com/knowledge-base/tech-tips-tricks/how-to-offset-anchor-tag-link-using-css/ */
+content:"";
+display:block;
+height:48px; /* fixed header height*/
+margin:-48px 0 0; /* negative fixed header height */
+}
+
 /*---------------Nav bar---*/
 
 .homelogo {
