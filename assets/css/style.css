@@ -143,12 +143,16 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
 }
 
 /*---------------Portfolio---*/
+.portfolio {
+    background: #F5F5F5;
+    position: relative;
+}
 
 .heroimage-2 {
     background-image: url(../images/eliza-szablinska-TncriKEFStY-unsplash-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center center;
     position: relative;
     height: 35vh;
@@ -193,11 +197,16 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
 }
 
 /*---------------Locations---*/
+.locations {
+    background: #F5F5F5;
+    position: relative;
+}
+
 .heroimage-3 {
     background-image: url(../images/marisa-morton-h-dR-XFJXis-unsplash-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center center;
     position: relative;
     height: 30vh;
@@ -283,9 +292,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     .signup {
         padding:0% 10% 5% 10%;
     }
-    .heroimage-1,
-    .heroimage-2,
-    .heroimage-3 {
+    .heroimage-1 {
         background-attachment: fixed;
     }
     .main-logo {
