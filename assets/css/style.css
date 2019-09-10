@@ -149,6 +149,10 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     text-align: center;
 }
 
+.modal-title {
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 2rem;
+}
 /*---------------Portfolio---*/
 .portfolio {
     background: #F5F5F5;
