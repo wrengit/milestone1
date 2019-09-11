@@ -33,6 +33,12 @@ Currently the contact form requires that suitable user data is entered into the 
 * CSS
 * Bootstrap
 * JavaScript
+* favicon.io
+* FontAwesome
+* Google Fonts
+* PopperJS
+* Jquery
+* hover.css
 
 
 ## Testing
