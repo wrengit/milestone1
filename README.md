@@ -51,10 +51,40 @@ Testing on ipad and ipad pro (dev tools) in horizontal mode showed minor layout 
 
 During testing it was found that mobile browsers cannot render ```background-attachment: fixed```. Initially this was changed to ```background-attachment: scroll``` for mobile view, but this impacted the visual appeal of the mobile experience too much. The images were changed to ```position: sticky``` on mobile only, giving a more pleasing mobile experience, leaving the parallax scrolling effect on desktop.
 
-## Deployment
-Th site is deployed on GitHub pages, directly from the master branch. The site will update with all further commits on the master branch.
+## Cloning & Deployment
 
-The site can be cloned to a local repository by pasting 'git clone https://github.com/wrengit/milestone1.git' into a local terminal.
+### Cloning
+The site can be cloned to a local repository by the following steps (GitHub guide link [here](https://help.github.com/en/articles/cloning-a-repository):
+
+* Under the repository name, click Clone or download.
+
+* In the Clone with HTTPs section, click the clipboard icon to copy the clone URL for the repository.
+
+* Open the terminal on your local machine
+
+* Change the current working directory to the location where you want the cloned directory to be made.
+
+* Type ```git clone```, and then paste the URL you previously copied.
+
+```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
+
+* Press Enter. Your local clone will be created.
+
+```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.```
+
+### Deployment
+The site is deployed on GitHub pages, directly from the master branch. The site will update with all further commits on the master branch. A cloned site can be deployed on GitHub via the following steps:
+
+* Go to the setting menu on the GitHub repository
+
+* Scroll down to find the 'GitHub Pages' subtitle and change the source to 'master branch'
+
+* A link will appear beneath the 'GitHub Pages' subtitle with your hosted site.
 
 ## Credits
 
@@ -64,15 +94,15 @@ All content was written by me. Client names, testimonials and example portfolio 
 ### Media
 All images are from [Unsplash](http://unsplash.com), a royalty free, free to use image repository. A sepia filter was added to the polaroid images to enhance the appearance. Photographer credits for the images are below.
 
-* Photo by sept commercial on Unsplash
-* Photo by Marisa Morton on Unsplash
-* Photo by Eliza Szablinska on Unsplash
-* Photo by Stanley Dai on Unsplash
-* Photo by NeONBRAND on Unsplash
-* Photo by Hannah Cook on Unsplash
-* Photo by Carly Rae Hobbins on Unsplash
-* Photo by Ben Rosett on Unsplash
-* Photo by Banter Snaps on Unsplash
+* Photo by [sept commercial](https://unsplash.com/@septdoigt)
+* Photo by [Marisa Morton](https://unsplash.com/@poemacollective)
+* Photo by [Eliza Szablinska](https://unsplash.com/@liz_szablinska)
+* Photo by [Stanley Dai](https://unsplash.com/@stanleydai)
+* Photo by [NeONBRAND](https://unsplash.com/@neonbrand)
+* Photo by [Hannah Cook](https://unsplash.com/@hanleigh)
+* Photo by [Carly Rae Hobbins](https://unsplash.com/@carlyrae)
+* Photo by [Ben Rosett](https://unsplash.com/@spiritvisionstudios)
+* Photo by [Banter Snaps](https://unsplash.com/@bantersnaps)
 
 ### Acknowledgements
 The JavaScript to collapse the mobile navbar upon a link being clicked was provided by Eventyret_mentor from the Code Institute Slack channel.
