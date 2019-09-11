@@ -38,12 +38,11 @@ Currently the contact form requires that suitable user data is entered into the 
 * Google Fonts
 * PopperJS
 * Jquery
-* hover.css
 
 ## Services Used
 * Tinypng - image compression
 * Unsplash - imaage repository
-*
+* hover.css - css hover styling
 
 
 ## Testing
