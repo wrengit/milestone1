@@ -54,13 +54,13 @@ Local libraries were created, but a link to a CDN included in index.html to spee
 During testing it was found that mobile browsers cannot render ```background-attachment: fixed```. Initially this was changed to ```background-attachment: scroll``` for mobile view, but this impacted the visual appeal of the mobile experience too much. The images were changed to ```position: sticky``` on mobile only, giving a more pleasing mobile experience, leaving the parallax scrolling effect on desktop.
 
 ### User stories
-As a user, I want to understand more about the company, to see if it fits with my event aims.
+> As a user, I want to understand more about the company, to see if it fits with my event aims.
 
-As a user, I want to easily be able to access more detailed and relevant information, before making my decision to proceed.
+> As a user, I want to easily be able to access more detailed and relevant information, before making my decision to proceed.
 
-As an interested potential customer, I want to be able to casually sign up for more information, commitment free, and be contacted by the business.
+> As an interested potential customer, I want to be able to casually sign up for more information, commitment free, and be contacted by the business.
 
-As a potential customer, I want to be able to contact the business immediately, and discuss options / proceed to hire.
+> As a potential customer, I want to be able to contact the business immediately, and discuss options / proceed to hire.
 
 ## Cloning & Deployment
 
