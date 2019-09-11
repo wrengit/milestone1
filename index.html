@@ -8,23 +8,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicons/site.webmanifest">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>ruhstik. | Wedding planning</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
-        <a class="navbar-brand homelogo" href="index.html#landing">ruhstik.</a>
+        <a class="navbar-brand homelogo" href="index.html#heroimage-1">ruhstik.</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="index.html#about">About</a>
+                <a class="nav-item nav-link" href="index.html#testimonials">Testimonials</a>
                 <a class="nav-item nav-link" href="index.html#portfolio">Portfolio</a>
                 <a class="nav-item nav-link" href="index.html#locations">Locations</a>
                 <a class="nav-item nav-link" href="index.html#contactform">Contact Us</a>
@@ -60,10 +61,10 @@
         </div>
     </nav>
 
-    <header class="heroimage-1" id="landing">
-        <div class="heroimage-text">
+    <header id="heroimage-1">
+        <section class="heroimage-text">
             <h1 class="main-logo">ruhstik.</h1>
-        </div>
+        </section>
     </header>
 
     <section class="container-fluid about" id="about">
@@ -99,9 +100,9 @@
         </div>
     </section>
 
-    <section id="testimonials">
+    <section>
         <img class="sticky-image" src="assets\images\ben-rosett-w4bp40RJZ9M-unsplash-min.jpg" alt="Picture (eat, drink and be married)">
-        <div class="container-fluid testimonials">
+        <div class="container-fluid testimonials" id="testimonials">
             <div class="row">
                 <div class="col-sm-4 align-self-center">
                     <img class="img-fluid" src="assets\images\hannah-cook-dqa2LjshmWY-unsplash-min.jpg" alt="Photo of couple one">
@@ -355,7 +356,7 @@
                     <div class="input-group-prepend">
                         <div class="input-group-text"><i class="fa fa-envelope-o"></i></div>
                     </div>
-                    <input type="email" class="form-control" id="emailinput" placeholder="your_name@email.com">
+                    <input type="email" class="form-control" id="emailinput" placeholder="your_name@email.com" required>
                 </div>
             </div>
           </div>
@@ -365,84 +366,79 @@
           <button type="submit" class="btn btn-outline-secondary hvr-fade mx-auto">Send</button>
         </form>
     </section>
-
-    <footer class="footer mt-4">
-        <div class="container-fluid pt-4">
-            <div class="row">
-                <div class="col-12">
-                    <h4>Mailing list</h4>
-                    <p class="p-3">Want to be first to know about a fantastic new venue or our latest party? Sign up to our mailing list. No spam. We promise. <i class="fa fa-heart" aria-hidden="true"></i></p>
-                    <form class="contactform signup d-lg-none">
-                        <div class="form-row mx-auto">
-                            <div class="form-group col-10">
-                                <label class="sr-only" for="emailinput">Email address</label>
-                                <div class="input-group mb-2">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-envelope-o"></i></div>
-                                    </div>
-                                    <input type="email" class="form-control" id="emailinput" placeholder="signup@mailinglist.com" required>
+    <footer class="container-fluid footer mt-4 pt-4">
+        <div class="row">
+            <div class="col-12">
+                <h4>Mailing list</h4>
+                <p class="p-3">Want to be first to know about a fantastic new venue or our latest party? Sign up to our mailing list. No spam. We promise. <i class="fa fa-heart" aria-hidden="true"></i></p>
+                <form class="contactform signup d-lg-none">
+                    <div class="form-row mx-auto">
+                        <div class="form-group col-10">
+                            <label class="sr-only" for="emailinput">Email address</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-envelope-o"></i></div>
                                 </div>
-                            </div>
-                            <div class="col-2">
-                                <button type="submit" class="btn btn-light hvr-fade">Join!</button>
+                                <input type="email" class="form-control" id="emailinput" placeholder="signup@mailinglist.com" required>
                             </div>
                         </div>
-                    </form>
-                    <form class="contactform signup d-none d-lg-block">
-                        <div class="form-row justify-content-center">
-                            <div class="form-group col-8">
-                                <label class="sr-only" for="emailinput">Email address</label>
-                                <div class="input-group mb-2">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-envelope-o"></i></div>
-                                    </div>
-                                    <input type="email" class="form-control" id="emailinput" placeholder="signup@mailinglist.com" required>
-                                </div>
-                            </div>
-                            <div class="w-100"></div>
-                            <div class="col">
-                                <button type="submit" class="btn btn-light hvr-fade">Join!</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-12">
-                    <h4>Find us</h4>
-                    <p>
-                        ruhstik.
-                        <br>
-                        101 Alimony Avenue
-                        <br>
-                        Cambridge
-                        <br>
-                        CB2 1LX
-                    </p>
-                    <p><i class="fa fa-phone"></i>    01826 883 647</p>
-                    <p><i class="fa fa-envelope-o"></i>    hello@ruhstik.co.uk</p>
-                </div>
-                <div class="col-12 d-block d-lg-none">
-                    <div class="hidden-socials">
-                        <div class="hvr-icon-grow-rotate">
-                            <a href="https://facebook.com" target="_blank"><i class="fa fa-2x fa-facebook hvr-icon"></i></a>
-                        </div>
-                        <div class="hvr-icon-grow-rotate">
-                            <a href="https://twitter.com" target="_blank"><i class="fa fa-2x fa-twitter hvr-icon"></i></a>
-                        </div>
-                        <div class="hvr-icon-grow-rotate">
-                            <a href="https://instagram.com" target="_blank"><i class="fa fa-2x fa-instagram hvr-icon"></i></a>
-                        </div>
-                        <div class="hvr-icon-grow-rotate">
-                            <a href="https://pinterest.com" target="_blank"><i class="fa fa-2x fa-pinterest-p hvr-icon"></i></a>
+                        <div class="col-2">
+                            <button type="submit" class="btn btn-light hvr-fade">Join!</button>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 p-3">
-                    <p><a class="hvr-grow designer-link" href="https://github.com/wrengit" target="_blank">Copyright <i class="fa fa-copyright"></i> wren designs 2019</a></p>
+                </form>
+                <form class="contactform signup d-none d-lg-block">
+                    <div class="form-row justify-content-center">
+                        <div class="form-group col-8">
+                            <label class="sr-only" for="emailinput">Email address</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-envelope-o"></i></div>
+                                </div>
+                                <input type="email" class="form-control" id="emailinput" placeholder="signup@mailinglist.com" required>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-light hvr-fade">Join!</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12">
+                <h4>Find us</h4>
+                <p>
+                    ruhstik.
+                    <br>
+                    101 Alimony Avenue
+                    <br>
+                    Cambridge
+                    <br>
+                    CB2 1LX
+                </p>
+                <p><i class="fa fa-phone"></i>    01826 883 647</p>
+                <p><i class="fa fa-envelope-o"></i>    hello@ruhstik.co.uk</p>
+            </div>
+            <div class="col-12 d-block d-lg-none">
+                <div class="hidden-socials">
+                    <div class="hvr-icon-grow-rotate">
+                        <a href="https://facebook.com" target="_blank"><i class="fa fa-2x fa-facebook hvr-icon"></i></a>
+                    </div>
+                    <div class="hvr-icon-grow-rotate">
+                        <a href="https://twitter.com" target="_blank"><i class="fa fa-2x fa-twitter hvr-icon"></i></a>
+                    </div>
+                    <div class="hvr-icon-grow-rotate">
+                        <a href="https://instagram.com" target="_blank"><i class="fa fa-2x fa-instagram hvr-icon"></i></a>
+                    </div>
+                    <div class="hvr-icon-grow-rotate">
+                        <a href="https://pinterest.com" target="_blank"><i class="fa fa-2x fa-pinterest-p hvr-icon"></i></a>
+                    </div>
                 </div>
             </div>
+            <div class="col-12 p-3">
+                <p><a class="hvr-grow designer-link" href="https://github.com/wrengit" target="_blank">Copyright <i class="fa fa-copyright"></i> wren designs 2019</a></p>
+            </div>
         </div>
-
-
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>

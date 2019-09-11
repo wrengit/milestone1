@@ -1,6 +1,10 @@
-/*---Global styles---*/
+/*Global styles*/
 
 @import "https://fonts.googleapis.com/css?family=Raleway|Oswald|Playfair+Display|Sue+Ellen+Francisco&display=swap";
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: "Raleway", sans-serif;
@@ -21,14 +25,15 @@ h1, h2, h3, h4 {
     padding: 3%;
 }
 
-:target:before {  /* Anchor link fixed using code pulled directly from --> https://www.itsupportguides.com/knowledge-base/tech-tips-tricks/how-to-offset-anchor-tag-link-using-css/ */
+/* Anchor link fixed using code pulled directly from --> https://www.itsupportguides.com/knowledge-base/tech-tips-tricks/how-to-offset-anchor-tag-link-using-css/ */
+:target:before {
 content:"";
 display:block;
-height:48px; /* fixed header height*/
-margin:-48px 0 0; /* negative fixed header height */
+height:48px;
+margin:-48px 0 0;
 }
 
-/*---------------Nav bar---*/
+/*Nav bar*/
 
 .homelogo {
     font-family: "Sue Ellen Francisco", cursive;
@@ -52,11 +57,10 @@ margin:-48px 0 0; /* negative fixed header height */
     margin-right: 10px;
 }
 
-/*---------------Landing page---*/
+/*Landing page*/
 
-/*---rgba opacity does not seem to apply to the background image, only linear gradient
-https://www.w3schools.com/howto/howto_css_parallax.asp---*/
-.heroimage-1 {
+/*rgba opacity does not seem to apply to the background image, only linear gradient*/
+#heroimage-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/banter-snaps-y4bE8ST_CTg-unsplash-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,7 +72,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
 }
 
 .heroimage-text {
-    color: white;
+    color: #ffffff;
     margin: auto;
     width: 60%;
     height: 80%;
@@ -77,13 +81,13 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
 
 .main-logo {
     margin: auto;
-    border: 0.07em solid white;
+    border: 0.07em solid #ffffff;
     padding: 4% 2% 0% 5%;
     font-family: "Sue Ellen Francisco", cursive;
     font-size: 5rem;
 }
 
-/*---------------About---*/
+/*About*/
 
 .about img {
     filter: invert(100%);
@@ -97,7 +101,8 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     padding-top: 2%;
 }
 
-.about figure p {  /* <---removes margin when visable in mobile view  */
+/*removes margin when visable in mobile view*/
+.about figure p {
     margin: 0;
 }
 
@@ -113,7 +118,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     padding: 0;
 }
 
-/*---------------Tesimonials---*/
+/*Tesimonials*/
 
 .sticky-image {
     width: 100%;
@@ -155,7 +160,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     font-family: "Sue Ellen Francisco", cursive;
     font-size: 2rem;
 }
-/*---------------Portfolio---*/
+/*Portfolio*/
 .portfolio {
     background: #F5F5F5;
     position: relative;
@@ -209,7 +214,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     transform: rotate(1.3deg);
 }
 
-/*---------------Locations---*/
+/*Locations*/
 .locations {
     background: #F5F5F5;
     position: relative;
@@ -226,7 +231,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     max-width: 100%;
 }
 
-/*---------------Contact---*/
+/*Contact*/
 
 .cursive {
     font-family: "Sue Ellen Francisco", cursive;
@@ -246,7 +251,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
 .signup {
     padding:5% 5%;
 }
-/*---------------Footer---*/
+/*Footer*/
 
 .footer {
     text-align: center;
@@ -268,11 +273,11 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     margin-right: 10px;
 }
 
-/*---------------Media queries---*/
+/*Media queries*/
 
-/*---Mobile devices (vertical)---*/
+/*Mobile devices (vertical)*/
 
-/*---max-width to target just vertical mobile devices. Image is too large on mobile vertical--*/
+/*max-width to target just vertical mobile devices. Image is too large on mobile vertical*/
 @media (max-width: 575.98px) {
     .testimonials img {
         max-width: 70%;
@@ -282,7 +287,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     }
 }
 
-/*---Mobile devices (horizontal)---*/
+/*Mobile devices (horizontal)*/
 
 @media (min-width: 576px) {
     .about-text {
@@ -293,7 +298,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     }
 }
 
-/*---Tablets (horizontal) / Desktops---*/
+/*Tablets (horizontal) / Desktops*/
 
 @media (min-width: 992px) {
     .main-text {
@@ -305,7 +310,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     .signup {
         padding:0% 10% 5% 10%;
     }
-    .heroimage-1 {
+    #heroimage-1 {
         background-attachment: fixed;
     }
     .main-logo {
@@ -316,7 +321,7 @@ https://www.w3schools.com/howto/howto_css_parallax.asp---*/
     }
 }
 
-/*---Large Desktops---*/
+/*Large Desktops*/
 
 @media (min-width: 1200px) {
     .contactform {

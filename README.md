@@ -72,3 +72,5 @@ All images are from [Unsplash](http://unsplash.com), a royalty free, free to use
 
 ### Acknowledgements
 The JavaScript to collapse the mobile navbar upon a link being clicked was provided by Eventyret_mentor from the Code Institute Slack channel.
+
+Parallax background image was learnt from https://www.w3schools.com/howto/howto_css_parallax.asp
