@@ -40,6 +40,11 @@ Currently the contact form requires that suitable user data is entered into the 
 * Jquery
 * hover.css
 
+## Services Used
+* Tinypng - image compression
+* Unsplash - imaage repository
+*
+
 
 ## Testing
 The site was tested across multiple browsers (Chrome, Firefox, Brave, Edge), and on multiple virtual screen sizes via Chrome dev tools. The hosted site was tested physically with a Huawei P20 pro. Compatibility was good across all screen sizes.
