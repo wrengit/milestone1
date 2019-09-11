@@ -29,8 +29,8 @@ h1, h2, h3, h4 {
 :target:before {
 content:"";
 display:block;
-height:48px;
-margin:-48px 0 0;
+height:300px;
+margin:-300px 0 0;
 }
 
 /*Nav bar*/
@@ -124,6 +124,17 @@ margin:-48px 0 0;
     width: 100%;
     position: sticky;
     top: 48px;
+}
+
+.heroimage-4 {
+    background-image: url(../images/ben-rosett-w4bp40RJZ9M-unsplash-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    height: 60vh;
+    max-width: 100%;
 }
 
 .testimonials {
@@ -318,6 +329,12 @@ margin:-48px 0 0;
     }
     .video {
         max-width: 80%;
+    }
+    :target:before {
+    content:"";
+    display:block;
+    height:45px;
+    margin:-45px 0 0;
     }
 }
 
