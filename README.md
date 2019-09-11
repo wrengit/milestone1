@@ -3,7 +3,7 @@ Stream One Project: User-Centric Frontend Development - Code Institute
 
 A website to act as an initial information portal for prospective clients interested in a wedding planning service. Designed to act as a 'hook' to showcase the ethos of the company, whilst not overloading the user with too much information.
 
-# Demo
+## Demo
 A link to the project hosted on GitHub Pages can be found [here](https://wrengit.github.io/milestone1/)
 
 ## UX
@@ -33,7 +33,6 @@ Currently the contact form requires that suitable user data is entered into the 
 * CSS
 * Bootstrap
 * JavaScript
-* favicon.io
 * FontAwesome
 * Google Fonts
 * PopperJS
@@ -41,20 +40,32 @@ Currently the contact form requires that suitable user data is entered into the 
 
 ## Services Used
 * Tinypng - image compression
-* Unsplash - imaage repository
+* Unsplash - image repository
 * hover.css - css hover styling
+* favicon.io - favicon generator
 
 
 ## Testing
 The site was tested across multiple browsers (Chrome, Firefox, Brave, Edge), and on multiple virtual screen sizes via Chrome dev tools. The hosted site was tested physically with a Huawei P20 pro. Compatibility was good across all screen sizes.
 Testing on ipad and ipad pro (dev tools) in horizontal mode showed minor layout and sizing issues that could not be remedied without affecting desktop view. It is assumed that the majority of users will be viewing on either a vertical mobile or tablet view, or desktop. The site has been optimised for these arrangements.
 
+Local libraries were created, but a link to a CDN included in index.html to speed up the load times for users.
+
 During testing it was found that mobile browsers cannot render ```background-attachment: fixed```. Initially this was changed to ```background-attachment: scroll``` for mobile view, but this impacted the visual appeal of the mobile experience too much. The images were changed to ```position: sticky``` on mobile only, giving a more pleasing mobile experience, leaving the parallax scrolling effect on desktop.
+
+### User stories
+As a user, I want to understand more about the company, to see if it fits with my event aims.
+
+As a user, I want to easily be able to access more detailed and relevant information, before making my decision to proceed.
+
+As an interested potential customer, I want to be able to casually sign up for more information, commitment free, and be contacted by the business.
+
+As a potential customer, I want to be able to contact the business immediately, and discuss options / proceed to hire.
 
 ## Cloning & Deployment
 
 ### Cloning
-The site can be cloned to a local repository by the following steps (GitHub guide link [here](https://help.github.com/en/articles/cloning-a-repository):
+The site can be cloned to a local repository by the following steps (GitHub guide link [here](https://help.github.com/en/articles/cloning-a-repository)):
 
 * Under the repository name, click Clone or download.
 
