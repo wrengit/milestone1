@@ -17,7 +17,8 @@ Links to the business' social media pages (demo links forward to the main social
 
 Users can see what the business is about, read testimonials from previous clients, and read about example events that the business has previously organised. This gives a good feel for what they can expect from working with the business. Social media links, a contact form, a physical location and phone number, and a contact email cover all methods of communicating should the user wish to proceed.
 
-Links to wireframes
+Wireframes were made for mobile, table and desktop views. They can be found [here](https://github.com/wrengit/milestone1/blob/master/wireframes/milestone1wireframes.pdf).
+The finished site differs slightly from the wireframe design, as it became more apparent what would work on the various screen sizes.
 
 ## Features
 ### Existing Features
@@ -49,7 +50,7 @@ Currently the contact form requires that suitable user data is entered into the 
 The site was tested across multiple browsers (Chrome, Firefox, Brave, Edge), and on multiple virtual screen sizes via Chrome dev tools. The hosted site was tested physically with a Huawei P20 pro. Compatibility was good across all screen sizes.
 Testing on ipad and ipad pro (dev tools) in horizontal mode showed minor layout and sizing issues that could not be remedied without affecting desktop view. It is assumed that the majority of users will be viewing on either a vertical mobile or tablet view, or desktop. The site has been optimised for these arrangements.
 
-The code was run through an html and css validator to catch formatting errors. The hosted site was demonstrated on the Code Institute Slack channel to get peer review. 
+The code was run through an html and css validator to catch formatting errors. The hosted site was demonstrated on the Code Institute Slack channel to get peer review.
 
 Local libraries were created, but a link to a CDN included in index.html to speed up the load times for users.
 
