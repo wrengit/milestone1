@@ -118,7 +118,7 @@ margin:-300px 0 0;
     padding: 0;
 }
 
-/*Tesimonials*/
+/*Testimonials*/
 
 .sticky-image {
     width: 100%;
@@ -171,7 +171,9 @@ margin:-300px 0 0;
     font-family: "Sue Ellen Francisco", cursive;
     font-size: 2rem;
 }
+
 /*Portfolio*/
+
 .portfolio {
     background: #F5F5F5;
     position: relative;
@@ -226,6 +228,7 @@ margin:-300px 0 0;
 }
 
 /*Locations*/
+
 .locations {
     background: #F5F5F5;
     position: relative;
@@ -262,6 +265,7 @@ margin:-300px 0 0;
 .signup {
     padding:5% 5%;
 }
+
 /*Footer*/
 
 .footer {
