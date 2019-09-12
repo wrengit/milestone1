@@ -49,6 +49,8 @@ Currently the contact form requires that suitable user data is entered into the 
 The site was tested across multiple browsers (Chrome, Firefox, Brave, Edge), and on multiple virtual screen sizes via Chrome dev tools. The hosted site was tested physically with a Huawei P20 pro. Compatibility was good across all screen sizes.
 Testing on ipad and ipad pro (dev tools) in horizontal mode showed minor layout and sizing issues that could not be remedied without affecting desktop view. It is assumed that the majority of users will be viewing on either a vertical mobile or tablet view, or desktop. The site has been optimised for these arrangements.
 
+The code was run through an html and css validator to catch formatting errors. The hosted site was demonstrated on the Code Institute Slack channel to get peer review. 
+
 Local libraries were created, but a link to a CDN included in index.html to speed up the load times for users.
 
 During testing it was found that mobile browsers cannot render ```background-attachment: fixed```. Initially this was changed to ```background-attachment: scroll``` for mobile view, but this impacted the visual appeal of the mobile experience too much. The images were changed to ```position: sticky``` on mobile only, giving a more pleasing mobile experience, leaving the parallax scrolling effect on desktop.
@@ -81,7 +83,6 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 * Press Enter. Your local clone will be created.
 
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 > Cloning into `Spoon-Knife`...
 > remote: Counting objects: 10, done.
