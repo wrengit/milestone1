@@ -17,7 +17,7 @@ Links to the business' social media pages (demo links forward to the main social
 
 Users can see what the business is about, read testimonials from previous clients, and read about example events that the business has previously organised. This gives a good feel for what they can expect from working with the business. Social media links, a contact form, a physical location and phone number, and a contact email cover all methods of communicating should the user wish to proceed.
 
-Wireframes were made for mobile, table and desktop views. They can be found [here](https://github.com/wrengit/milestone1/blob/master/wireframes/milestone1wireframes.pdf).
+Wireframes were made for mobile, tablet and desktop views. They can be found [here](https://github.com/wrengit/milestone1/blob/master/wireframes/milestone1wireframes.pdf).
 The finished site differs slightly from the wireframe design, as it became more apparent what would work on the various screen sizes.
 
 ## Features
