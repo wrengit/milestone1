@@ -1,5 +1,4 @@
 /*Global styles*/
-
 @import "https://fonts.googleapis.com/css?family=Raleway|Oswald|Playfair+Display|Sue+Ellen+Francisco&display=swap";
 
 html {
@@ -12,7 +11,10 @@ body {
     margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: "Oswald", sans-serif;
 }
 
@@ -27,10 +29,10 @@ h1, h2, h3, h4 {
 
 /* Anchor link fixed using code pulled directly from --> https://www.itsupportguides.com/knowledge-base/tech-tips-tricks/how-to-offset-anchor-tag-link-using-css/ */
 :target:before {
-content:"";
-display:block;
-height:300px;
-margin:-300px 0 0;
+    content: "";
+    display: block;
+    height: 300px;
+    margin: -300px 0 0;
 }
 
 /*Nav bar*/
@@ -44,7 +46,7 @@ margin:-300px 0 0;
 .socials-burger {
     text-align: left;
     display: inline-block;
-    padding: 3% 0 3% 0;
+    padding: 3% 0;
 }
 
 .socials-burger i {
@@ -61,14 +63,14 @@ margin:-300px 0 0;
 
 /*rgba opacity does not seem to apply to the background image, only linear gradient*/
 #heroimage-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/banter-snaps-y4bE8ST_CTg-unsplash-min.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-  background-position: center center;
-  position: relative;
-  height: 100vh;
-  max-width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/banter-snaps-y4bE8ST_CTg-unsplash-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
 }
 
 .heroimage-text {
@@ -82,7 +84,7 @@ margin:-300px 0 0;
 .main-logo {
     margin: auto;
     border: 0.07em solid #ffffff;
-    padding: 4% 2% 0% 5%;
+    padding: 4% 2% 0 5%;
     font-family: "Sue Ellen Francisco", cursive;
     font-size: 5rem;
 }
@@ -127,7 +129,7 @@ margin:-300px 0 0;
 }
 
 .heroimage-4 {
-    background-image: url(../images/ben-rosett-w4bp40RJZ9M-unsplash-min.jpg);
+    background-image: url("../images/ben-rosett-w4bp40RJZ9M-unsplash-min.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -180,7 +182,7 @@ margin:-300px 0 0;
 }
 
 .heroimage-2 {
-    background-image: url(../images/eliza-szablinska-TncriKEFStY-unsplash-min.jpg);
+    background-image: url("../images/eliza-szablinska-TncriKEFStY-unsplash-min.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -235,7 +237,7 @@ margin:-300px 0 0;
 }
 
 .heroimage-3 {
-    background-image: url(../images/marisa-morton-h-dR-XFJXis-unsplash-min.jpg);
+    background-image: url("../images/marisa-morton-h-dR-XFJXis-unsplash-min.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -257,13 +259,12 @@ margin:-300px 0 0;
     padding: 5% 15%;
     text-align: center;
 }
-
 .contactform button:hover {
     background-color: #575757;
 }
 
 .signup {
-    padding:5% 5%;
+    padding: 5%;
 }
 
 /*Footer*/
@@ -277,7 +278,6 @@ margin:-300px 0 0;
 .designer-link {
     color: #f5f5f5;
 }
-
 .designer-link:hover {
     color: inherit;
     text-decoration: none;
@@ -303,7 +303,6 @@ margin:-300px 0 0;
 }
 
 /*Mobile devices (horizontal)*/
-
 @media (min-width: 576px) {
     .about-text {
         padding: 4% 8%;
@@ -314,7 +313,6 @@ margin:-300px 0 0;
 }
 
 /*Tablets (horizontal) / Desktops*/
-
 @media (min-width: 992px) {
     .main-text {
         font-size: 1.4em;
@@ -323,7 +321,7 @@ margin:-300px 0 0;
         padding: 0;
     }
     .signup {
-        padding:0% 10% 5% 10%;
+        padding: 0 10% 5%;
     }
     #heroimage-1 {
         background-attachment: fixed;
@@ -335,20 +333,19 @@ margin:-300px 0 0;
         max-width: 80%;
     }
     :target:before {
-    content:"";
-    display:block;
-    height:45px;
-    margin:-45px 0 0;
+        content: "";
+        display: block;
+        height: 45px;
+        margin: -45px 0 0;
     }
 }
 
 /*Large Desktops*/
-
 @media (min-width: 1200px) {
     .contactform {
         padding: 5% 20%;
     }
     .signup {
-        padding: 0% 15% 5% 15%;
+        padding: 0 15% 5%;
     }
 }
