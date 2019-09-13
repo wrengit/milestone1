@@ -50,7 +50,8 @@ Currently the contact form requires that suitable user data is entered into the 
 The site was tested across multiple browsers (Chrome, Firefox, Brave, Edge), and on multiple virtual screen sizes via Chrome dev tools. The hosted site was tested physically with a Huawei P20 pro. Compatibility was good across all screen sizes.
 Testing on ipad and ipad pro (dev tools) in horizontal mode showed minor layout and sizing issues that could not be remedied without affecting desktop view. It is assumed that the majority of users will be viewing on either a vertical mobile or tablet view, or desktop. The site has been optimised for these arrangements.
 
-The code was run through an html and css validator to catch formatting errors. The hosted site was demonstrated on the Code Institute Slack channel to get peer review.
+The code was run through an html and css validator to catch formatting errors. The css was minified, and the original non-minified style.css left in for assessment purposes.
+The hosted site was posted on the Code Institute Slack channel to get peer review.
 
 Local libraries were created, but a link to a CDN included in index.html to speed up the load times for users.
 
