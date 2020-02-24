@@ -1,5 +1,4 @@
 # ruhstik. - A wedding planning service
-Stream One Project: User-Centric Frontend Development - Code Institute
 
 A website to act as an initial information portal for prospective clients interested in a wedding planning service. Designed to act as a 'hook' to showcase the ethos of the company, whilst not overloading the user with too much information.
 
