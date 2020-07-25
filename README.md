@@ -3,7 +3,7 @@
 A website to act as an initial information portal for prospective clients interested in a wedding planning service. Designed to act as a 'hook' to showcase the ethos of the company, whilst not overloading the user with too much information.
 
 ## Demo
-A link to the project hosted on GitHub Pages can be found [here](https://wrengit.github.io/milestone1/)
+A link to the project hosted on GitHub Pages can be found [here](https://wrengit.github.io/ruhstik/)
 
 ## UX
 The site is designed to focus on couples looking for a wedding planning service that stands out from the traditional planning services. The ethos of the business is 'customer first', working closely with clients to deliver an event to remember. The service is pitched at young, design conscious couples that will likely be viewing the site initially on a mobile device.
